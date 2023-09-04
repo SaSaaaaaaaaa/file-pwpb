@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HomepageController extends Controller
+class LoginController extends Controller
 {
     function view(){
-        return view('homepage.index');
+        return view('login.index');
     }
 }
