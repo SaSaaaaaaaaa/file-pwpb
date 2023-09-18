@@ -36,16 +36,16 @@
 														<li class="mini-cart-item">
 															<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
 															<a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{ asset('media/product/3.jpg')}}" alt=""></a>
-															<a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>		
+															<a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>
 															<div class="quantity">Qty: 1</div>
 															<div class="price">$150.00</div>
 														</li>
 														<li class="mini-cart-item">
-															<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>													
+															<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
 															<a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{ asset('media/product/1.jpg')}}" alt=""></a>
 															<a href="shop-details.html" class="product-name">Zunkel Schwarz</a>
 															<div class="quantity">Qty: 1</div>
-															<div class="price">$100.00</div>						
+															<div class="price">$100.00</div>
 														</li>
 													</ul>
 													<div class="total-cart">
@@ -120,7 +120,7 @@
 																		<h2 class="sub-menu-title">Furniture 1</h2>
 																		<ul class="menu-list">
 																			<li>
-																				<a href="index.html"><span class="menu-item-text">Home Categories</span></a>
+																				<a href="{{ route('homepage') }}"><span class="menu-item-text">Home Categories</span></a>
 																			</li>
 																			<li>
 																				<a href="index2.html"><span class="menu-item-text">Home Clean</span></a>
@@ -382,7 +382,7 @@
 																			<input type="submit" class="button" name="login" value="Login"/>
 																		</div>
 																		<div class="button-next-reregister">Create An Account</div>
-																	</div>						
+																	</div>
 																</form>
 															</div>
 															<div class="form-register">
@@ -394,7 +394,7 @@
 																		</div>
 																		<div class="password">
 																			<input type="password" class="input-text" placeholder="Password" name="password" id="reg_password"/>
-																		</div>															
+																		</div>
 																		<div class="button-register">
 																			<input type="submit" class="button" name="register" value="Register"/>
 																		</div>
@@ -411,13 +411,13 @@
 											<div class="search-box">
 												<div class="search-toggle"><i class="icon-search"></i></div>
 											</div>
-											
+
 											<!-- Wishlist -->
 											<div class="wishlist-box">
 												<a href="shop-wishlist.html"><i class="icon-heart"></i></a>
 												<span class="count-wishlist">1</span>
 											</div>
-											
+
 											<!-- Cart -->
 											<div class="ruper-topcart dropdown light">
 												<div class="dropdown mini-cart top-cart">
@@ -439,16 +439,16 @@
 																<li class="mini-cart-item">
 																	<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
 																	<a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{ asset('media/product/3.jpg')}}" alt=""></a>
-																	<a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>		
+																	<a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>
 																	<div class="quantity">Qty: 1</div>
 																	<div class="price">$150.00</div>
 																</li>
 																<li class="mini-cart-item">
-																	<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>													
+																	<a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
 																	<a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{ asset('media/product/1.jpg')}}" alt=""></a>
 																	<a href="shop-details.html" class="product-name">Zunkel Schwarz</a>
 																	<div class="quantity">Qty: 1</div>
-																	<div class="price">$100.00</div>						
+																	<div class="price">$100.00</div>
 																</li>
 															</ul>
 															<div class="total-cart">
