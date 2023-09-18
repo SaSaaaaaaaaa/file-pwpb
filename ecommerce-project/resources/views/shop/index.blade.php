@@ -8,11 +8,11 @@
 	<body class="shop">
 		<div id="page" class="hfeed page-wrapper">
             
-            @include('shop.header')
+            @include('layout.header-all')
 
             @include('shop.isi')
 
-            @include('shop.footer')
+            @include('layout.footer')
             
 		</div>
 

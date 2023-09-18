@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from caketheme.com/html/ruper/page-contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
-    <head>
+<!-- Mirrored from caketheme.com/html/ruper/shop-checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:04 GMT -->
+<head>
 
     @include('layout.head')
 
 	</head>
 	
-	<body class="page">
+	<body class="shop">
 		<div id="page" class="hfeed page-wrapper">
 			
             @include('layout.header-all')
 
 			<div id="site-main" class="site-main">
 				
-                @include('contact_us.isi')
+                @include('check-out.isi')
 
 			</div>
 
 			@include('layout.footer')
-
+            
 		</div>
 
 		<!-- Back Top button -->
@@ -37,12 +37,16 @@
         @include('layout.wishlist')
 
 		<!-- Compare -->
-
+		
         @include('layout.compare')
 
-		<!-- Quickview -->
-		
-        @include('layout.quickview')
+		<!-- Page Loader -->
+		<div class="page-preloader">
+	    	<div class="loader">
+	    		<div></div>
+	    		<div></div>
+	    	</div>
+	    </div>
 
 		<!-- Dependency Scripts -->
 		<script src="{{asset('libs/popper/js/popper.min.js')}}"></script>
@@ -55,10 +59,12 @@
 		<script src="{{asset('libs/slider/js/jquery.dependClass-0.1.js')}}"></script>
 		<script src="{{asset('libs/slider/js/draggable-0.1.js')}}"></script>
 		<script src="{{asset('libs/slider/js/jquery.slider.js')}}"></script>
+		<script src="{{asset('libs/elevatezoom/js/jquery.elevatezoom.js')}}"></script>
+		<script src="{{asset('libs/select2/js/select2.min.js')}}"></script>
 		
 		<!-- Site Scripts -->
 		<script src="{{asset('assets/js/app.js')}}"></script>
 	</body>
 
-<!-- Mirrored from caketheme.com/html/ruper/page-contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
+<!-- Mirrored from caketheme.com/html/ruper/shop-checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:05 GMT -->
 </html>

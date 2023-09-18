@@ -7,11 +7,11 @@
         <body class="shop">
             <div id="page" class="hfeed page-wrapper">
                 
-                @include ('shop-details.header')
+                @include ('layout.header-all')
                 
-                @include ('shop-details.isi')
+                @include('shop-details.isi')
                 
-                @include ('shop-details.footer')
+                @include ('layout.footer')
                 
             </div>
 

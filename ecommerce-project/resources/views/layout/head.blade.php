@@ -23,6 +23,7 @@
 		<link rel="stylesheet" href="{{asset('libs/slick/css/slick-theme.css')}}" type="text/css">
 		<link rel="stylesheet" href="{{asset('libs/mmenu/css/mmenu.min.css')}}" type="text/css">
 		<link rel="stylesheet" href="{{asset('libs/slider/css/jslider.css')}}">
+		@vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 		<!-- Site Stylesheet -->
 		<link rel="stylesheet" href="{{asset('assets/css/app.css')}}" type="text/css">

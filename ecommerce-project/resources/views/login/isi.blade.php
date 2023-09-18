@@ -27,7 +27,7 @@
 																@csrf
 																
 																<div class="username">
-																	<label>Username or email address <span class="required">*</span></label>
+																	<label>Username <span class="required">*</span></label>
 																	<input type="text" class="input-text" name="username" id="username">
 																</div>
 																<div class="password">
@@ -40,7 +40,10 @@
 																		<label class="inline">Remember me</label>
 																	</div>
 																	<div class="lost-password">
-																		<a href="page-forgot-password.html">Lost your password?</a>
+																		<a href="{{route('register')}}">Register</a>
+																	</div>
+																	<div class="lost-password">
+																		<a href="{{route('forgot-password')}}">Lost your password?</a>
 																	</div>
 																</div>
 																<div class="button-login">

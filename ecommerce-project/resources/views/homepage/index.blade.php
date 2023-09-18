@@ -7,11 +7,11 @@
 	<body class="home home-10 title-10">
 		<div id="page" class="hfeed page-wrapper">
 
-            @include('homepage.header')
+            @include('layout.header')
 
             @include('homepage.isi')
 
-			@include('homepage.footer')
+			@include('layout.footer')
 
 		</div>
 

@@ -11,7 +11,7 @@
 	<body class="page">
 		<div id="page" class="hfeed page-wrapper">
 			
-            @include('forgot-password.header')
+            @include('layout.header-all')
 
 			<div id="site-main" class="site-main">
 				
@@ -19,7 +19,7 @@
 
 			</div>
 
-			@include('forgot-password.footer')
+			@include('layout.footer')
 
 		</div>
 

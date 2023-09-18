@@ -6,12 +6,11 @@
 	<body class="page">
 		<div id="page" class="hfeed page-wrapper">
 			
-        @include('about.header')
+        @include('layout.header-all')
+		
         @include('about.isi')
-        @include('about.footer')
-			
 
-			
+        @include('layout.footer')	
 
 		<!-- Back Top button -->
 		<div class="back-top button-show">

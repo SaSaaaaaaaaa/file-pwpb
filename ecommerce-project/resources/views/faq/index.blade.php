@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from caketheme.com/html/ruper/page-contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
-    <head>
+<!-- Mirrored from caketheme.com/html/ruper/page-faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
+<head>
 
     @include('layout.head')
 
@@ -15,12 +15,12 @@
 
 			<div id="site-main" class="site-main">
 				
-                @include('contact_us.isi')
+                @include('faq.isi')
 
 			</div>
 
 			@include('layout.footer')
-
+            
 		</div>
 
 		<!-- Back Top button -->
@@ -37,15 +37,23 @@
         @include('layout.wishlist')
 
 		<!-- Compare -->
-
+		
         @include('layout.compare')
 
 		<!-- Quickview -->
 		
         @include('layout.quickview')
 
+		<!-- Page Loader -->
+		<div class="page-preloader">
+	    	<div class="loader">
+	    		<div></div>
+	    		<div></div>
+	    	</div>
+	    </div>
+
 		<!-- Dependency Scripts -->
-		<script src="{{asset('libs/popper/js/popper.min.js')}}"></script>
+        <script src="{{asset('libs/popper/js/popper.min.js')}}"></script>
 		<script src="{{asset('libs/jquery/js/jquery.min.js')}}"></script>
 		<script src="{{asset('libs/bootstrap/js/bootstrap.min.js')}}"></script>
 		<script src="{{asset('libs/slick/js/slick.min.js')}}"></script>
@@ -60,5 +68,5 @@
 		<script src="{{asset('assets/js/app.js')}}"></script>
 	</body>
 
-<!-- Mirrored from caketheme.com/html/ruper/page-contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
+<!-- Mirrored from caketheme.com/html/ruper/page-faq.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 03 Sep 2023 01:37:38 GMT -->
 </html>

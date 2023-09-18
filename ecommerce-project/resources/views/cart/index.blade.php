@@ -11,7 +11,7 @@
 	<body class="shop">
 		<div id="page" class="hfeed page-wrapper">
 			
-            @include('cart.header')
+            @include('layout.header-all')
 
 			<div id="site-main" class="site-main">
 				
@@ -19,7 +19,7 @@
 
 			</div>
 
-			@include('cart.footer')
+			@include('layout.footer')
 
 		</div>
 

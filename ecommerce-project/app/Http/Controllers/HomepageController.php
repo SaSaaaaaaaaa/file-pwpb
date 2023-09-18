@@ -13,4 +13,7 @@ class HomepageController extends Controller
     public function view(){
         return view('homepage.index');
     }
+    public function viewfaq(){
+        return view('faq.index');
+    }
 }

@@ -8,13 +8,13 @@
 </head>
 <body class="page">
 	<div id="page" class="hfeed page-wrapper">
-		@include('login.header')
+		@include('layout.header-all')
 
 		<div id="site-main" class="site-main">
 			
 		@include('login.isi')
 
-		@include('login.footer')
+		@include('layout.footer')
 
 	<!-- Back Top button -->
 	<div class="back-top button-show">

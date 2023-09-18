@@ -10,8 +10,8 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6 header-center">
                         <div class="site-logo">
-                            <a href="{{route('homepage')}}">
-                                <img width="400" height="79" src="{{asset('media/logo.png')}}" alt="Ruper – Furniture HTML Theme" />
+                            <a href="index.html">
+                                <img width="400" height="79" src="media/logo.png" alt="Ruper – Furniture HTML Theme" />
                             </a>
                         </div>
                     </div>
@@ -35,15 +35,15 @@
                                         <ul class="cart-list ">
                                             <li class="mini-cart-item">
                                                 <a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
-                                                <a href="{{route('shop-details')}}" class="product-image"><img width="600" height="600" src="{{asset('media/product/3.jpg')}}" alt=""></a>
-                                                <a href="{{route('shop-details')}}" class="product-name">Chair Oak Matt Lacquered</a>		
+                                                <a href="shop-details.html" class="product-image"><img width="600" height="600" src="media/product/3.jpg" alt=""></a>
+                                                <a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>		
                                                 <div class="quantity">Qty: 1</div>
                                                 <div class="price">$150.00</div>
                                             </li>
                                             <li class="mini-cart-item">
                                                 <a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>													
-                                                <a href="{{route('shop-details')}}" class="product-image"><img width="600" height="600" src="{{asset('media/product/1.jpg')}}" alt=""></a>
-                                                <a href="{{route('shop-details')}}" class="product-name">Zunkel Schwarz</a>
+                                                <a href="shop-details.html" class="product-image"><img width="600" height="600" src="media/product/1.jpg" alt=""></a>
+                                                <a href="shop-details.html" class="product-name">Zunkel Schwarz</a>
                                                 <div class="quantity">Qty: 1</div>
                                                 <div class="price">$100.00</div>						
                                             </li>
@@ -57,8 +57,8 @@
                                             <div class="total-percent"><div class="percent" style="width:20%"></div></div>
                                         </div>
                                         <div class="buttons">
-                                            <a href="{{route('cart')}}" class="button btn view-cart btn-primary">View cart</a>
-                                            <a href="{{route('check-out')}}" class="button btn checkout btn-default">Check out</a>
+                                            <a href="shop-cart.html" class="button btn view-cart btn-primary">View cart</a>
+                                            <a href="shop-checkout.html" class="button btn checkout btn-default">Check out</a>
                                         </div>
                                     </div>
                                 </div>
@@ -72,13 +72,13 @@
         <div class="header-mobile-fixed">
             <!-- Shop -->
             <div class="shop-page">
-                <a href="{{route('shop')}}"><i class="wpb-icon-shop"></i></a>
+                <a href="shop-grid-left.html"><i class="wpb-icon-shop"></i></a>
             </div>
 
             <!-- Login -->
             <div class="my-account">
                 <div class="login-header">
-                    <a href="{{route('profile')}}"><i class="wpb-icon-user"></i></a>
+                    <a href="page-my-account.html"><i class="wpb-icon-user"></i></a>
                 </div>
             </div>
 
@@ -89,7 +89,7 @@
 
             <!-- Wishlist -->
             <div class="wishlist-box">
-                <a href="{{route('wishlist')}}"><i class="wpb-icon-heart"></i></a>
+                <a href="shop-wishlist.html"><i class="wpb-icon-heart"></i></a>
             </div>
         </div>
     </div>
@@ -101,8 +101,8 @@
                     <div class="row">
                         <div class="col-xl-3 col-lg-2 col-md-12 col-sm-12 col-12 header-left">
                             <div class="site-logo">
-                                <a href="{{route('homepage')}}">
-                                    <img width="400" height="79" src="{{asset('media/logo.png')}}" alt="Ruper – Furniture HTML Theme" />
+                                <a href="index.html">
+                                    <img width="400" height="79" src="media/logo.png" alt="Ruper – Furniture HTML Theme" />
                                 </a>
                             </div>
                         </div>
@@ -219,7 +219,7 @@
                                 
                                 <!-- Wishlist -->
                                 <div class="wishlist-box">
-                                    <a href="{{route('wishlist')}}"><i class="icon-heart"></i></a>
+                                    <a href="shop-wishlist.html"><i class="icon-heart"></i></a>
                                     <span class="count-wishlist">1</span>
                                 </div>
                                 
@@ -243,14 +243,14 @@
                                                 <ul class="cart-list ">
                                                     <li class="mini-cart-item">
                                                         <a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>
-                                                        <a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{asset('media/product/3.jpg')}}" alt=""></a>
+                                                        <a href="shop-details.html" class="product-image"><img width="600" height="600" src="media/product/3.jpg" alt=""></a>
                                                         <a href="shop-details.html" class="product-name">Chair Oak Matt Lacquered</a>		
                                                         <div class="quantity">Qty: 1</div>
                                                         <div class="price">$150.00</div>
                                                     </li>
                                                     <li class="mini-cart-item">
                                                         <a href="#" class="remove" title="Remove this item"><i class="icon_close"></i></a>													
-                                                        <a href="shop-details.html" class="product-image"><img width="600" height="600" src="{{asset('media/product/1.jpg')}}" alt=""></a>
+                                                        <a href="shop-details.html" class="product-image"><img width="600" height="600" src="media/product/1.jpg" alt=""></a>
                                                         <a href="shop-details.html" class="product-name">Zunkel Schwarz</a>
                                                         <div class="quantity">Qty: 1</div>
                                                         <div class="price">$100.00</div>						

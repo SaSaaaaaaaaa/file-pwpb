@@ -10,7 +10,7 @@
 	<body class="blog">
 		<div id="page" class="hfeed page-wrapper">
 			
-			@include('layout.header')
+			@include('layout.header-all')
 
 			<div id="site-main" class="site-main">
 				
@@ -18,7 +18,7 @@
 
 			</div>
 
-				@include('blog_details.footer')
+				@include('layout.footer')
 
 		</div>
 
