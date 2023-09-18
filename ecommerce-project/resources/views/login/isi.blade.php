@@ -23,9 +23,9 @@
 													<h2>Login</h2>
 													<div class="box-content">
 														<div class="form-login">
-															<form method="post" class="login" action="{{route('login')}}">
+															<form method="POST" class="login" action="{{route('login')}}">
 																@csrf
-																
+
 																<div class="username">
 																	<label>Username or email address <span class="required">*</span></label>
 																	<input type="text" class="input-text" name="username" id="username">
@@ -34,7 +34,7 @@
 																	<label for="password">Password <span class="required">*</span></label>
 																	<input class="input-text" type="password" name="password" id="password">
 																</div>
-																<div class="rememberme-lost">
+																{{-- <div class="rememberme-lost">
 																	<div class="remember-me">
 																		<input name="rememberme" type="checkbox" value="forever">
 																		<label class="inline">Remember me</label>
@@ -42,9 +42,9 @@
 																	<div class="lost-password">
 																		<a href="page-forgot-password.html">Lost your password?</a>
 																	</div>
-																</div>
+																</div> --}}
 																<div class="button-login">
-																	<input type="submit" class="button" name="login" value=" {{ __('Log in') }}"> 
+																	<input type="submit" class="button" name="login" value=" {{ __('Log in') }}">
 																</div>
 															</form>
 														</div>
